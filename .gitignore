@@ -1,4 +1,3 @@
 node_modules
-.gitignore
 *.js
-func1.ts
+av.ts

@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmr230584/calc-ref-turma2025.git"
+    "url": "git+https://github.com/EnzoCMarini/calculadora-remake.git"
   },
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jmr230584/calc-ref-turma2025/issues"
+    "url": "https://github.com/EnzoCMarini/calculadora-remake/issues"
   },
-  "homepage": "https://github.com/jmr230584/calc-ref-turma2025#readme"
+  "homepage": "https://github.com/EnzoCMarini/calculadora-remake#readme"
 }
