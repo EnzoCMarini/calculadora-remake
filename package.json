@@ -15,5 +15,14 @@
   "dependencies": {
     "prompt-sync": "^4.2.0",
     "typescript-require": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmr230584/calc-ref-turma2025.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jmr230584/calc-ref-turma2025/issues"
+  },
+  "homepage": "https://github.com/jmr230584/calc-ref-turma2025#readme"
 }

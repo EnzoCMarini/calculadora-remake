@@ -1,14 +1,50 @@
 // tudo dentro de função
 
-let teclado = require (`prompt-sync`)();
+/*let teclado = require (`prompt-sync`)();
 let n1: number = 0;
 let n2: number = 0;
-let opcao: string = ``;
+let opcao: string = ``;*/
 
 function sair(): void{
     console.clear();
     console.log(`Fim de programa...`);
-    process.exit(0);     
+    process.exit(0);
+}
+
+function soma(): void{
+    console.clear();
+    let teclado = require (`prompt-sync`)();
+    let n1: number = parseInt(teclado(`Digite o primeiro número: `));
+    let n2: number = parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1 + n2);
+    menu();
+}
+
+function subtracao(): void{
+    console.clear();
+    let teclado = require (`prompt-sync`)();
+    let n1: number = parseInt(teclado(`Digite o primeiro número: `));
+    let n2: number = parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1 - n2);
+    menu();
+}
+
+function multiplicacao(): void{
+    console.clear();
+    let teclado = require (`prompt-sync`)();
+    let n1: number = parseInt(teclado(`Digite o primeiro número: `));
+    let n2: number = parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1 * n2);
+    menu();
+}
+
+function divisao(): void{
+    console.clear();
+    let teclado = require (`prompt-sync`)();
+    let n1: number = parseInt(teclado(`Digite o primeiro número: `));
+    let n2: number = parseInt(teclado(`Digite o segundo número: `));
+    console.log(n1 / n2);
+    menu();
 }
 
 function opcoes (opcao:string): void{
@@ -23,6 +59,8 @@ function opcoes (opcao:string): void{
 }
 
 function menu():void{
+    let opcao: string = ``;
+    let teclado = require (`prompt-sync`)();
     console.log(`---* CALCULADORA *---`);
     console.log(`Digite `);
     console.log(`+ --> ADIÇÃO`);
@@ -33,4 +71,5 @@ function menu():void{
     opcao = teclado(`Digite a sua opção: `);
     opcoes(opcao);
 }
-menu(); 
+
+menu();
